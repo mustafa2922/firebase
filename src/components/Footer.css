@@ -1,0 +1,15 @@
+.footer {
+    padding-bottom: 3rem;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    color: #555;
+}
+
+.footer > *:nth-child(2) {
+    color: #38b038;
+}

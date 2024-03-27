@@ -1,0 +1,97 @@
+.container-signup {
+  padding: 4rem;
+  max-width: 1280px;
+  width: 100%;
+  min-height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;  
+}
+
+.main-signup {
+  padding: 0.8rem;
+  background-color: white;
+  background: linear-gradient(to bottom, #38b038, #257225);
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.main-signup > div {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.main-signup h1 {
+  font-size: 4  rem;
+  font-weight: 500;
+  text-align: center;
+  background: -webkit-linear-gradient(#38b038, #257225);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input-fields {
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-fields > .text-fields {
+  padding-block: 2rem;
+  width: 100%;
+}
+
+.input-fields > .check-box {
+  align-self: flex-start;
+}
+
+.submit-button {
+  margin-top: 3.5rem;
+  text-align: center;
+  padding: 0.5rem 4rem;
+  background-color: #38b038;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: inherit;
+  display: block;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit-button:hover,
+.submit-button:active {
+  background-color: #257225;
+}
+
+.input-fields > *:last-child {
+  margin-top: 1.5rem;
+  color: #555;
+}
+
+.input-fields > *:last-child > a {
+  color: #38b038;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.input-fields > *:last-child > a:hover,
+.input-fields > *:last-child > a:active {
+  color: #257225;
+}
+
+@media screen and (max-width:550px) {
+  .container-signup {
+    padding: 1rem;
+  }
+}
